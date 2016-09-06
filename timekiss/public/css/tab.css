@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-8-11, 14:19:10
+    Author     : zhongjie.feng
+*/
+
+.clear {
+    clear: both;
+    overflow: hidden;
+    height: 0；
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+.info_form ul li{ display: flex; line-height: 34px; margin-bottom: 10px;}
+.info_form ul li span{ width: 80px;}
+.info_form ul li input,.info_form ul li textarea{ flex: 1;}
+.info_form button{ margin-left: 120px;}
+.info_form p{ text-align: center; line-height: 50px; text-decoration:underline; color:#00a65a;}

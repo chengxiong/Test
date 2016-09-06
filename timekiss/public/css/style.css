@@ -1,0 +1,27 @@
+.clear {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+ul,li{ list-style: none; }
+.box{ margin-bottom: 0px;}
+.table-color,.table .table-color:hover{ background: #cbecd9; cursor: auto;}
+.table tr:hover{ cursor: pointer;}
+.cont_list{ display: none;}
+.mars-list ul li{ line-height: 30px; width: 100%; float: left;}
+.mars-list ul li input,.mars-list ul li label,.mars-list ul li label span{ float: left; }
+.mars-list ul li label span{ width: 70px;}
+.mars-list ul li input:first-child{ margin-top: 7px; margin-right: 10px;}
+.mars-list ul li input:last-child{ width: 140px; height: 25px; margin-top: 3px;}
+.mars-list ul li:last-child{ margin-top: 10px;}
+.mars-list ul li a{ padding: 3px 15px; background: #ccc; border-radius: 3px; margin-left: 35px; color: #fff;}
+.mars-list ul li a:first-child{ background-color: #000;}
